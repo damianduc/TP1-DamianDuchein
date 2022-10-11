@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav {
+    color: white;
+    background-color: rgb(43, 40, 40);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoNav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logoNav img{
+    max-width: 8em;
+}
+
+.logoNav h1{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    margin-right: 7%;
+}
+
+.nav ul li {
+    display: inline;
+    padding: 20px;
+    justify-content: center;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    transition: all 400ms ease;
+} 
+
+.menuDesplegable {
+    display: none;
+}
+
+a:visited {
+    color: white;
+}
+
+.header {
+    color: white;
+    background-position: fixed;
+    background: url(/assets/images/ba1.jpg);
+    background-repeat: no-repeat;
+    font-size: 1.3em;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.header .principal {
+    text-align: right;
+    max-width: 60%;
+    padding: 25% 10% 20%;
+}
+
+.botones_header {
+    margin-top: 2em;
+}
+
+.header button {
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.tickets {
+    background-color: rgb(56, 163, 56);
+}
+
+.tickets:hover {
+    background-color: darkgreen;
+    transition: all 400ms ease;
+}
+
+.orador {
+    background: transparent;
+}
+
+.oradores {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta {
+    width: 20%;
+    margin: 20px;
+    border-radius:6px;
+    background: white;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.tarjeta .botones {
+    margin-top: 15%;
+}
+
+.tarjeta .botones a {
+    margin-left: 5%;   
+    font-size: 0.8em; 
+}
+
+.tarjeta img {
+    width: 100%;
+    height: 100%;
+}
+
+.tarjeta .JS {
+    text-decoration: none;
+    font-weight: 600;
+    padding: 3px 5px 3px 5px;
+    border: 2px solid ;
+    border-radius: 8px;
+    color: black;
+    border: 2px solid orange;
+    background-color: orange;
+}
+
+.tarjeta .react {
+    text-decoration: none;
+    font-weight: 600;
+    padding: 3px 5px 3px 5px;
+    border-radius: 8px;
+    color: white;
+    border: 2px solid lightskyblue;
+    background-color: lightskyblue;
+}
+
+.tarjeta .startups {
+    text-decoration: none;
+    font-weight: 600;
+    padding: 3px 5px 3px 5px;
+    border-radius: 8px;
+    border: 2px solid rgb(192, 53, 53);
+    background-color:rgb(192, 53, 53);
+}
+
+.tarjeta .negocios {
+    
+    text-decoration: none;
+    font-weight: 600;
+    padding: 3px 5px 3px 5px;
+    border-radius: 8px;
+    border: 2px solid rgb(39, 39, 39);
+    background-color:rgb(39, 39, 39);
+}
+
+.tarjeta:hover {
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+
+.textoArticulo {
+    padding: 1.5em;
+    padding-top: 0.75em;
+}
+
+.bsas {
+    max-height: 100%;
+    margin: 3% 0 3% 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bsas .playa {
+    background: url(/assets/images/honolulu.jpg);
+    background-position:center;
+}
+
+.bsas article {
+    padding: 4em;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    cursor: default;
+}
+
+.formulario .textoFormulario {
+    text-align: center;
+}
+
+.formulario{
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+}
+.formulario a{
+    color: black;
+}
+
+.formulario1 .campos{
+    margin: 2% 25% 2% 25%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 3fr ;
+    grid-gap: 0.8em;
+}
+
+.campos .hablar {
+    grid-column: 1/3;
+}
+
+.formulario1 p{
+    text-align: center;
+    align-content: center;
+}
+
+.formulario input{
+    border: 1px solid;
+    border-radius: 6px;
+    padding: 0.5em;
+}
+
+.botonFormulario {
+    display: flex;
+    justify-content: center;
+}
+
+.enviar {
+    width: 50%;
+    background-color: rgb(102, 211, 102);
+    padding: 8px;
+    margin-bottom: 1.5em;
+    border-radius: 8px;
+    border: rgb(102, 211, 102);
+    color: white;
+    transition: all 400ms ease;
+}
+
+.enviar:hover {
+    transform: translateY(-3%);
+    background-color: green;
+}
+
+.footer {
+    background-color: rgb(26, 58, 96) ;
+    margin: 0;
+    padding: 2%;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer ul li {
+    list-style: none;
+}
+
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    color: darkgrey;
+    transition: all 400ms ease;
+}
+
+@media only screen and (max-width: 1154px) {
+    
+    .nav {
+        color: white;
+        background-color: rgb(43, 40, 40);
+        display: flex;
+        flex-flow: column;
+        text-align: center;
+    }
+
+    .nav ul {
+        display: inline-block;
+    }
+
+    .nav ul li {
+        display: inline;
+        padding: 20px;
+        justify-content: center;
+    }
+
+    .cards {
+        width: 100%;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .tarjeta {
+        width: 70%;
+        margin: 20px;
+        border-radius:6px;
+        background: white;
+        box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+        cursor: default;
+        transition: all 400ms ease;
+    }
+
+}
+
+@media only screen and (max-width:894px) {
+    .nav {
+        color: white;
+        background-color: rgb(43, 40, 40);
+        display: flex;
+        flex-flow: column;
+        text-align: center;
+    }
+
+    .nav ul {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width:830px) {
+    .nav {
+        color: white;
+        background-color: rgb(43, 40, 40);
+        display: flex;
+        flex-flow: row-reverse;
+        text-align: left;
+    }
+
+    .nav .logoNav {
+        margin-right: 2em;
+    }
+
+    .nav ul {
+        max-width: 50%;
+        display: none;
+    }
+
+    .nav ul li {
+        padding: 1%;
+    }
+
+    .nav ul li a {
+        text-align: left;
+    }
+
+    .menuDesplegable {
+        display: flex;
+        margin: 3%;
+        margin-left: 5%;
+        cursor: pointer;
+    }
+
+    .menuDesplegable img {
+        margin-left: 30%;
+    }
+}
